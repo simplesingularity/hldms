@@ -1,0 +1,1 @@
+tar -cf hldms-packed.tar Dockerfile entrypoint.sh server.cfg

@@ -1,0 +1,13 @@
+services:
+  hldms:
+    image: hldms:latest
+    container_name: hldms
+    restart: unless-stopped
+    volumes:
+     - /home/YOUR HOST USERNAME HERE/hldms:/app/hldms
+    network_mode: host
+    ports:
+     - 27015:27015/tcp
+     - 27005:27005/udp
+    stdin_open: true
+    tty: true
