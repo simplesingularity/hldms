@@ -1,6 +1,9 @@
 # Dockerized Half-Life Deathmatch Source Dedicated Server
 The only working HLDMS dedicated server available right now, thanks to a bug that makes it hard to install on Linux systems.
 
+# How do I build this image?
+There are many ways, but I usually use Portainer running on Ubuntu Server, I go under Images -> Build a new image -> Upload .tar
+
 # Ubuntu
 Designed to run on Ubuntu
 
