@@ -19,3 +19,31 @@ After successful first run of the image, shell/putty into your host device and o
 # Known bugs and contributing
 Use VS code or other editor and make sure line breaks are LF (not Windows CRLF) this will mess up entrypoint.sh at least
 Only known bug afaik is if you choose to bind folder /app/hldms to a local one (default), then it wont copy ./server.cfg for some reason. But just make your own.
+
+# Bonus list of items/weapons/ammo 
+Can't find this anywhere on the internet for some reason
+```
+weapon_snark
+weapon_handgrenade
+weapon_hornetgun
+weapon_357
+weapon_gauss
+weapon_mp5
+weapon_satchel
+weapon_shotgun
+weapon_rpg
+weapon_egon
+weapon_crossbow
+
+ammo_buckshot
+ammo_9mmAR
+ammo_rpgclip
+ammo_gaussclip
+ammo_357
+ammo_ARgrenades
+ammo_crossbow
+
+item_longjump
+item_healthkit
+item_battery
+```
