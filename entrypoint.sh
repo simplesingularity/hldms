@@ -21,7 +21,15 @@ app_update 255470 validate
 quit
 EOF
 
-/usr/games/steamcmd +runscript $HOME/script1.txt
+FILE=/app/hldms/srcds_run
+if [ -f "$FILE" ]; then
+    echo "$FILE exists."
+else 
+    echo "$FILE does not exist."
+	/usr/games/steamcmd +runscript $HOME/script1.txt
+fi
+
+
 /usr/games/steamcmd +runscript $HOME/script2.txt
 #./steamcmd.sh "$@"
 
