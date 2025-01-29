@@ -4,8 +4,8 @@ The only working HLDMS dedicated server available right now, thanks to a bug tha
 # How do I build this image?
 There are many ways, but I usually use Portainer running on Ubuntu Server, I go under Images -> Build a new image -> Upload .tar
 
-# Ubuntu
-Designed to run on Ubuntu
+# OS/Linux
+Designed to run on Ubuntu and Debian
 
 # Easy to deploy
 Use a Portainer stack using the sample Docker compose file provided. Designed to use bound volumes out of the box.
