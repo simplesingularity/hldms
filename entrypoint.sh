@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
-cd ~
-
-/usr/games/steamcmd +runscript ~/script.txt
+~/steamcmd/steamcmd.sh +runscript ~/script.txt
 
 cd /app/hldms
-./srcds_run "$@"
+./srcds_run -debug "$@"

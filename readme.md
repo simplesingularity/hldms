@@ -5,10 +5,13 @@ The only working HLDMS dedicated server available right now, thanks to a bug tha
 There are many ways, but I usually use Portainer running on Ubuntu Server, I go under Images -> Build a new image -> Upload .tar
 
 # OS/Linux
-Designed to run on Ubuntu and Debian
+Designed to run on Debian
 
 # Easy to deploy
-Use a Portainer stack using the sample Docker compose file provided. Designed to use bound volumes out of the box.
+Use a Portainer stack using the sample Docker compose file provided. Designed to use bound volumes out of the box. If you use bound volumes make sure you:
+- 1: Create a folder for example ~/hldms on your host computer
+- 2: Run chmod -R +777 ~/hldms on the folder on your host computer
+- 3: Then link ~/hldms:/app/hldms (/app/hldms is the location in the docker image)
 
 # Ports
 27015/tcp and 27005/udp
